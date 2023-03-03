@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  width: 99%;
+  margin: 1px auto;
+  text-align: center;
+  border: 2px solid rgb(221, 221, 221);
+}
+
+tr button {
+  border-radius: 8px !important;
+}
+
+td {
+  border: 1px solid rgb(221, 221, 221);
+}
+.ant-layout-sider-children {
+  position: relative;
+}
+.ant-layout-sider-dark {
+  background: rgb(31, 42, 61) !important;
+}
+.ant-menu-dark {
+  background: rgb(31, 42, 61) !important ;
+}
+.trigger {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateX(50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 14px;
+  background-color: #ffffff;
+  border: solid 1px rgb(171, 171, 171);
+  border-radius: 50%;
+  font-size: 12px;
+  color: rgb(112, 112, 112);
+  cursor: pointer;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.homePage-top-layout-background {
+  height: 25vh;
+  margin: 5px 16px 0px 16px;
+  padding: 0;
+  background: #fff;
+
+}
+.homePage-middle-layout-background{
+  height: 20vh;
+  margin: 5px 16px 0px 16px;
+  background: #fff;
+  padding: 0;
+}
+.homePage-buttom-layout-background{
+  height: 55vh;
+  margin: 5px 16px 0px 16px;
+  padding: 0;
+  background: #fff;
+
+}
+.projectManage-top-layout-background{
+  height: 200px;
+  margin: 5px 16px 0px 16px;
+  padding: 0;
+  background: #fff;
+}
+.projectManage-top-title-wrap{
+  font-size: 18px;
+  font-weight: 600;
+}
+.projectManage-top-queryForm-wrap1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.projectManage-top-queryForm-wrap2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.projectManage-top-actionBtn-wrap{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.projectManage-buttom-layout-background{
+  height: 76vh;
+  margin: 5px 16px 0px 16px;
+  padding: 0;
+  background: #fff;
+}
+
+
+.ant-menu-item-only-child {
+  font-family: "Arial Black", "Arial Normal", "Arial";
+  font-weight: 900;
+  font-style: normal;
+  color: #ffffff;
+}
+.ant-menu-item-selected {
+  font-size: 18px;
+  font-weight: 600;
+}
+.ant-layout-header {
+  line-height: normal;
+  background: linear-gradient(
+    90deg,
+    rgb(2, 125, 180),
+    rgb(19, 36, 76)
+  ) !important;
+}
+.ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
+.ant-menu-inline.ant-menu-root
+  .ant-menu-submenu-title
+  > .ant-menu-title-content {
+  flex: auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(127, 127, 127);
+}
+Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px !important;
+}
+Header .head-left,
+Header .head-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+Header .head-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 35px;
+  box-shadow: 0 0 10px 0 rgb(0 33 79 / 11%);
+}
+Header .head-left span {
+  padding: 2px;
+  border: solid 1px rgb(209, 206, 206);
+}
+
+Header .ant-divider-vertical {
+  position: relative;
+  top: -0.06em;
+  display: inline-block;
+  height: 2.9em;
+  margin: 0 8px;
+  vertical-align: middle;
+  border-top: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+Header .head-right {
+  display: flex;
+}
+Header .head-right .head-right-img {
+  width: 40px;
+  height: 40px;
+  background-color: brown;
+  border-radius: 50%;
+}
+Header .head-right .head-right-text {
+  font-family: "Arial Black", "Arial Normal", "Arial";
+  font-weight: 900;
+  font-style: normal;
+  padding-left: 5px;
+}
+Header .head-right .head-right-text .head-right-text-tittle {
+  font-size: 10px;
+}
+.saveBtn {
+  border-color: #fff !important;
+}
+.homeBack {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* 主体公司 */
+.mainCompany {
+  display: flex;
+  width: 130px;
+  height: 32px;
+  margin-right: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 243, 243);
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 200;
+}
+.mainCompany-active {
+  border: 1px solid rgb(8, 208, 244);
+  color: rgb(8, 208, 244);
+  font-weight: 200;
+}
+
+.iconfont {
+  font-size: 22px ;
+  cursor: pointer;
+  opacity: 0.5;
+}
